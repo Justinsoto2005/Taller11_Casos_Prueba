@@ -32,6 +32,6 @@ class AsientoTest {
     @DisplayName("CP-03 Ocupar un asiento ya ocupado")
     void ocuparAsientoOcupado() {
     asiento.ocupar();
-    assertThrows(IllegalStateException.class asiento::ocupar);
+    assertThrows(IllegalStateException.class,asiento::ocupar);
     }
 }
